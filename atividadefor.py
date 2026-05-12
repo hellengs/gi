@@ -15,6 +15,7 @@ if frutas_favorita not in frutas:
     # salva numa nova variavel a posiçao dessa fruta na lista
     posiçao_fruta_favorita = posiçao
     #quebra o for (faz ele parar)
-  break
+    break
  
- #saida da posiçao da fru
+    #saida do algoritmo (print)
+    print(f"Sua fruta favorita é a {frutas[posiçao_fruta_favorita]} e ela está na posição {posiçao_fruta_favorita} da lista de frutas.")
