@@ -21,3 +21,4 @@ for indice, produto in enumerate (produtos):
     --------------------------------------
     """
     print(mensagem)
+    
