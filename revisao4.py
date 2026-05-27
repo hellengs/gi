@@ -1,4 +1,15 @@
-usuario_correto = input("Digite o nome de usuário: ")
-senha_correta = input("Digite a senha: ")
+usuario_correto = "admin"
+senha_correta = "1234"
 
-se o 
+
+usuario = ""
+senha = ""
+
+while usuario != usuario_correto or senha != senha_correta: 
+    usuario = input("Digite o nome de usuário: ")
+    senha = input("Digite a senha: ")
+
+if usuario == usuario_correto and senha == senha_correta:
+    print("usuario e senha incorreta! tente novamente.")
+else:
+    print("acesso permitido!.")
